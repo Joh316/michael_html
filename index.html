@@ -1,67 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
-<title>MiB</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
 </style>
-<script src=""></script>
-
 <body>
 
-
-  <!-- Navigation (Stays on Top) -->
-  <div class="w3-bar">
-    <a href="joe.html" class="w3-bar-item w3-button w3-mobile w3-right">Joe</a>
-    <a href="index.html" class="w3-bar-item w3-button w3-mobile w3-right">Home</a>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
   </div>
-
-  <!-- Start Section -->
-  <div class="w3-container w3-padding-24" id="start-section">
-    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center">Willkommen</h2>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">35 days left</p>
   </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l4 m6">
-      <div class="w3-container">
-        <h3>Bibel</h3>
-        <div class="w3-card-4" style="width:100%">
-          <img src="images/moses426.jpg" alt="Moses" style="width:100%">
-          <div class="w3-container w3-center">
-            <p><a href="joe.html">Liebesbrief des Vaters</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l4 m6">
-      <div class="w3-container">
-        <h3>Biker</h3>
-        <div class="w3-card-4" style="width:100%">
-          <img src="images/biker.png" alt="Biker" style="width:100%">
-          <div class="w3-container w3-center">
-            <p>Moto Guzzi V85 TT</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l4 m6">
-      <div class="w3-container">
-        <h3>Programmieren</h3>
-        <div class="w3-card-4" style="width:100%">
-          <img src="images/programmer.jpg" alt="Progammer" style="width:100%">
-          <div class="w3-container w3-center">
-            <p>HowTo: Json and java</p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
   </div>
-
+</div>
 
 </body>
-
 </html>
