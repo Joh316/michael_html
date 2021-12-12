@@ -1,0 +1,54 @@
+/* my colors #f0ece3, #dfd3c3, #c7b198, #596e79 */
+body, h1 {
+  font-family: "Raleway", sans-serif
+}
+
+body, html {
+  height: 100%
+}
+
+body {
+  background-color: #f0ece3;
+  padding-left: 64px;
+  padding-right: 64px;
+  /*
+  background-image: url("../images/lonely.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;  */
+}
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+/*
+@media screen and (min-width: 1020px) {
+  div.myScreen {
+    padding-top: 64px;
+  }
+
+
+@media screen and (max-width: 601px) {
+  body {
+    background-color: #f0ece3;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+*/
+
+
+/******** classes *******/
+
+.w3-display-topleft {
+  background-color: #596e79;
+}
+
+/** fonts **/
+.w3-tangerine {
+font-family: "Tangerine", serif;
+}
